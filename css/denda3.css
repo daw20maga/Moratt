@@ -1,0 +1,91 @@
+
+        * { padding: 0; margin: 0; }
+
+                        body {
+                            border-style: solid; 
+                            border-width: thin;
+                            border-color: black;
+                            margin: auto;
+                            background-image: url("../img/fondodiv.jpg");
+                            -webkit-background-size: cover;                 
+                            -moz-background-size: cover;                    
+                            -o-background-size: cover;                  
+                            background-size: cover;
+                           }
+                           header{
+                               text-align: center;
+                               font-family: Georgia, 'Times New Roman', Times, serif;
+                                font-size:xx-large;
+                           }
+                            nav {
+							border-style: double; 
+							border-width: thin;
+							border-color: black;
+                            margin: 15px;
+                            font-family: fantasy;
+                            font-size:xx-large;
+                            background-color: aliceblue;
+                            overflow: auto; 
+						     }
+                             nav li {
+                            display: inline; 
+                            border-style:unset; 
+                            border-width: thin; 
+                            border-color: black;
+                             }
+                                  
+                                nav ul {   
+                            float: left; 
+                            margin-left: 30px; 
+                            margin-top: 30px; 
+                            }
+
+                            nav img {
+                            left: 570px;
+                            float: right;   
+                            }
+                            
+
+                            section div {
+                                border-style:inset; 
+                                border-width: thin;
+                                border-color: black; 
+                                margin-top: 1%;  
+                                margin-left: 1%;
+                                margin-right: 1%;
+                                text-align: center;
+                                background-color: rgb(164, 208, 250);
+                                opacity: 0.8;
+                                                       
+                            }
+
+                            div a{
+                                text-decoration: none;
+                                color: black;
+                            }
+
+                            div h2{
+                                margin-top: 5%;
+                            }
+                             
+
+                             main {
+                                 margin-left: 15%;
+                             }
+
+                             main section {
+                               
+                                 display: flex;
+                                 flex-wrap: wrap;
+                                
+                             }
+                             footer {
+                                    border-style: ridge;
+                                    padding: 1%;
+                                    width: 50%;
+                                    margin: 1.5%; 
+                                    background-color: aliceblue;
+                             }
+						
+							 
+						
