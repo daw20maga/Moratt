@@ -1,0 +1,131 @@
+* { margin: 0; padding: 0; }
+
+body {
+    border-style: solid; 
+    border-width: thin;
+    border-color: black;
+    margin: auto;
+    background-image: url("../img/fondodiv.jpg");
+    -webkit-background-size: cover;                 
+    -moz-background-size: cover;                    
+    -o-background-size: cover;                  
+    background-size: cover;
+}
+
+
+    
+
+nav {
+    border-style: dotted; 
+    border-width: thin;
+    border-color: black;
+    margin: 15px;
+    margin-bottom: 0%;   
+     font-family: fantasy;
+     font-size:xx-large;
+     background-color: aliceblue;
+     overflow: auto; 
+    
+     }
+
+     
+ nav li {
+     display: inline; 
+     border-style:unset; 
+     border-width: thin; 
+     border-color: black;
+     }
+     
+     
+     nav ul {
+        
+        float: left; 
+        margin-left: 30px; 
+        margin-top: 30px; 
+     }
+
+     nav img {
+        left: 570px;
+        float: right;   
+        }
+
+        header{
+            margin: 0.96850393700787%;
+            padding: 1.96850393700787%;
+            width: 91.86351706036745%;
+    }
+
+
+nav{		 
+    margin: 1.96850393700787%;
+    padding: 1.96850393700787%;
+    width: 91.86351706036745%;
+}    
+
+nav li{
+             
+    margin-right: 1,312335958005249%;
+    display: inline;
+}
+
+
+
+.boton{
+    text-decoration: none;
+    padding: 0.86850393700787%;
+    font-weight: 500;
+    font-size: 90%;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 2px solid #c874cf;
+}
+
+.boton:hover{
+    color: #7118ba;
+    background-color: #ffffff;
+}
+
+main{
+    border-style: inset;
+    border-color: darkslateblue;
+    background-color: aliceblue;
+    margin-left: 1.96850393700787%;
+    margin-bottom: 1.96850393700787%; 
+    padding: 1.96850393700787%;
+    width: 30.69343832020997%;
+    align-items: center;
+}
+
+main p{
+    margin-bottom: 1.96850393700787%;
+    margin-top: 1.96850393700787%;
+}
+
+main div input{
+   
+    margin-top: 3.96850393700787%;
+    width: 15%;
+    padding: 0.46850393700787%;
+    background-color: rgb(159, 223, 235);
+    color: rgb(194, 208, 235);
+}
+
+footer{			
+    clear: both;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    background-color: aliceblue;
+    border-style: inset;
+}
+@media only screen and (max-width:755px) {
+    #menu1{
+        display: none;
+    }
+
+    #menu2{
+        display: block;
+    }
+}
